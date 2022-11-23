@@ -13,7 +13,18 @@ Congratulations! By this point you have:
 * Learned how to perform NAND backups
 * Learned how to block as much Nintendo telemetry as possible
 
-........
+Fixing the Archive Bit
+----------------------
+
+If you extracted the sdsetup ZIP using mac, linux, or BSD, the archive bit of the files on the SD card will not be correctly set. If you extracted the files using Windows, you do not need to do anything.
+
+To fix the archive bit:
+
+1. Enter RCM on your Switch
+2. Push the Hekate payload to your Switch
+3. Tap **'Tools > Arch Bit . RCM . Touch . Pkg1/2 > Fix Archive Bit'**
+
+Hekate will automatically check all the files on the SD card and ensure their archive bits are set correctly.
    
 Launching Atmosphere CFW
 ------------------------
